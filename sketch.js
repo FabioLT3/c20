@@ -52,7 +52,7 @@ function draw() {
   
   //código para reiniciar el fondo
   if (path.y > height) {
-    path.y = path.height/2;
+    path.y = 0;
   }
 
     createCash();
